@@ -2,5 +2,3 @@
 *.gpkg
 *.tif
 *.pyc
-data/*
-!data/swissimage/ch.swisstopo.swissimage-dop10-8K9OTrP9.csv
