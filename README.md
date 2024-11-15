@@ -7,7 +7,7 @@ The project uses Convolutional Neural Networks (U-Net or others) to automaticall
 1. Clone the repo
 2. Install [gdal](https://gdal.org/en/latest/)
 2. Install the libraries in [requirements.txt](requirements.txt)
-3. Run [fetch_data.ipynb](solar-energy-suitability/notebooks/fetch_data.ipynb) ~20min ~10GB. This will download the tiff satelite images from swissimage and split them in png of size 1000x1000px (adjustable) into this [folder](data/swissimage/ch.swisstopo.swissimage-dop10-8K9OTrP9/tiles).
+3. Run [fetch_data.ipynb](solar-energy-suitability/notebooks/fetch_data.ipynb) ~20min ~10GB. This will download the tiff satellite images from swissimage and split them in png of size 1000x1000px (adjustable) into this [folder](data/swissimage/ch.swisstopo.swissimage-dop10-8K9OTrP9/tiles).
 
 ## Labelling
 You can use the tool that you prefer. Here are some options:
@@ -20,6 +20,6 @@ You can download csvs containing links to the tiff from [swissimage](https://www
 
 ## Exploration notebooks
 There are three exploration notebooks as starters to work with images and if you wish to add Sonnendach into your model:
-* explore_swissimage.ipynb: How to work with swissimage satelite image
-* explore_solkat.ipynb: How to work with Sonnendach polycons
-* explore_overlap.ipynb: How map Sonnendach to the satelite images
+* explore_swissimage.ipynb: How to work with swissimage satellite image
+* explore_solkat.ipynb: How to work with Sonnendach polygons 
+* explore_overlap.ipynb: How map Sonnendach to the satellite images
