@@ -6,8 +6,8 @@ The project uses Convolutional Neural Networks (U-Net or others) to automaticall
 
 ## Getting started
 
- 1. Clone the repo.
- 2. Install the libraries in [requirements.txt](requirements.txt).
+ 1. Clone the repository.
+ 2. Install the libraries in [`requirements.txt`](./requirements.txt).
  3. Run [`fetch_uniform.ipynb`](./notebooks/fetch_uniform.ipynb) to download a few pictures. Feel free to adjust the parameters.
  4. Run [`prepare_images.ipynb`](./notebooks/prepare_images.ipynb) to slice images into smaller chunks, for convenience.
 
@@ -30,3 +30,4 @@ There are three exploration notebooks as starters to work with images and if you
  * [`explore_overlap.ipynb`](./notebooks/explore_overlap.ipynb): How map Sonnendach to the satellite images.
  * [`fetch_uniform.ipynb`](./notebooks/fetch_uniform.ipynb): Download a few random tiles, which are guaranteed to have some rooftops.
  * [`prepare_images.ipynb`](./notebooks/prepare_images.ipynb): Extract sub-tiles (100x100 meters) as JPEG from downloaded tiles, focusing on rooftops.
+ * [`prepare_masks.ipynb`](./notebooks/prepare_masks.ipynb): Generate rooftop masks, for each prepared sample.
