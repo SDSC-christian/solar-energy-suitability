@@ -8,8 +8,11 @@ The project uses Convolutional Neural Networks (U-Net or others) to automaticall
 
  1. Clone the repository.
  2. Install the libraries in [`requirements.txt`](./requirements.txt).
- 3. Run [`fetch_uniform.ipynb`](./notebooks/fetch_uniform.ipynb) to download a few pictures. Feel free to adjust the parameters.
- 4. Run [`prepare_images.ipynb`](./notebooks/prepare_images.ipynb) to slice images into smaller chunks, for convenience.
+ 2. Download and unpack to data/solkat  [`SOLDACH_KAT.pdgk`](https://data.geo.admin.ch/ch.bfe.solarenergie-eignung-daecher/solarenergie-eignung-daecher/solarenergie-eignung-daecher_2056.gpkg.zip
+).
+ 3. Run [`fetch_uniform.ipynb`](./notebooks/fetch_uniform.ipynb) to download a few pictures where there are rooftops. Feel free to adjust the parameters.
+ 4. Run [`prepare_images.ipynb`](./notebooks/prepare_images.ipynb) to slice images into smaller chunks and ignore regions without rooftops, for convenience.
+ 5. Optional: Run [`prepare_masks.ipynb`](./notebooks/prepare_masks.ipynb) to get the masks where the rooftops are.
 
 
 ## Labelling
