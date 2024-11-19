@@ -4,3 +4,4 @@
 *.png
 *.tif
 *.pyc
+.DS_Store
