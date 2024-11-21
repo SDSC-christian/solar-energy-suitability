@@ -1,6 +1,5 @@
 *.zip
 *.gpkg
-*.jpg
 *.png
 *.tif
 *.pyc
