@@ -1,6 +1,7 @@
 *.zip
 *.gpkg
 *.png
+*.jpg
 *.tif
 *.pyc
 .DS_Store
